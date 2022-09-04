@@ -1,0 +1,25 @@
+:root{
+  --headerH: 100px;
+}
+
+.home-container{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  header{
+    height: var(--headerH);
+    border-color: #fff;
+    border-bottom: 1px solid #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: c;
+    .search-input{
+      width: calc(80vw - 40px);
+    }
+  }
+  main{
+    height: calc(100vh - var(--headerH));
+    border-color: #fff;
+    overflow: auto;
+  }
+}

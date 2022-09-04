@@ -1,0 +1,18 @@
+:root{
+  --headerH: 100px;
+}
+
+.home-container{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  header{
+    height: var(--headerH);
+    border-color: #fff;
+    border-bottom: 1px solid #bbb;
+  }
+  main{
+    height: calc(100vh - var(--headerH));
+    border-color: #fff;
+  }
+}
