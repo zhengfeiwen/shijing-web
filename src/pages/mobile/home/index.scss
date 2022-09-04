@@ -27,25 +27,13 @@
     height: calc(100vh - var(--headerH));
     border-color: #fff;
     overflow: auto;
-    .ad-video{
-      width: 100vw;
-      height: 200px;
-      background-color: #e5e5e5;
-      .vjs_video_3-dimensions.vjs-fluid {
-        padding-top: 57%;
-      }
-      .vjs-custom-skin > .video-js .vjs-big-play-button {
-        /* background-color: rgba(0,0,0,0.45); */
-        font-size: 3.5em;
-        border-radius: 50%;
-        height: 2em !important;
-        width: 2em !important;
-        line-height: 2em !important;
-        margin-top: -1em !important;
-        margin-left: -1em
-      }
-      .vjs-poster{
-        background-position:center
+    .arco-avatar{
+      background-color: transparent;
+    }
+    .tuijian{
+      padding: 0 8vw;
+      img{
+        border-radius: 10px;
       }
     }
   }

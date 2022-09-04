@@ -80,3 +80,5 @@ button:focus-visible {
 }
 .arco-icon { font-size: 32; }
 .arco-divider-horizontal{ margin: 0;}
+.margin-bottom-1{ margin-bottom: 30px; }
+.center { text-align: center; }
